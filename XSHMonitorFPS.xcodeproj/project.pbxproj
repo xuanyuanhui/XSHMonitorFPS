@@ -16,6 +16,7 @@
 		774143942060A10E00E7D3B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 774143932060A10E00E7D3B6 /* main.m */; };
 		7741439E2060A10E00E7D3B6 /* XSHMonitorFPSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7741439D2060A10E00E7D3B6 /* XSHMonitorFPSTests.m */; };
 		774143A92060A10E00E7D3B6 /* XSHMonitorFPSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 774143A82060A10E00E7D3B6 /* XSHMonitorFPSUITests.m */; };
+		774143B82060A2B700E7D3B6 /* XSHFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 774143B72060A2B700E7D3B6 /* XSHFPSLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		774143A42060A10E00E7D3B6 /* XSHMonitorFPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSHMonitorFPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		774143A82060A10E00E7D3B6 /* XSHMonitorFPSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSHMonitorFPSUITests.m; sourceTree = "<group>"; };
 		774143AA2060A10E00E7D3B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		774143B62060A2B700E7D3B6 /* XSHFPSLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XSHFPSLabel.h; sourceTree = "<group>"; };
+		774143B72060A2B700E7D3B6 /* XSHFPSLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSHFPSLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				774143822060A10D00E7D3B6 /* AppDelegate.m */,
 				774143842060A10D00E7D3B6 /* ViewController.h */,
 				774143852060A10D00E7D3B6 /* ViewController.m */,
+				774143B62060A2B700E7D3B6 /* XSHFPSLabel.h */,
+				774143B72060A2B700E7D3B6 /* XSHFPSLabel.m */,
 				774143872060A10D00E7D3B6 /* Main.storyboard */,
 				7741438D2060A10D00E7D3B6 /* Assets.xcassets */,
 				7741438F2060A10D00E7D3B6 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 				7741438C2060A10D00E7D3B6 /* XSHMonitorFPS.xcdatamodeld in Sources */,
 				774143942060A10E00E7D3B6 /* main.m in Sources */,
 				774143832060A10D00E7D3B6 /* AppDelegate.m in Sources */,
+				774143B82060A2B700E7D3B6 /* XSHFPSLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

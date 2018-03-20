@@ -7,23 +7,28 @@
 //
 
 #import "ViewController.h"
+#import "XSHFPSLabel.h"
 
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    //显示FPS
+    [[XSHFPSLabel shareFPS] showFPS];
 }
 
+//-(void)viewWillDisappear:(BOOL)animated{
+//    [super viewWillDisappear:animated];
+//    //隐藏FPS
+//    [[XSHFPSLabel shareFPS] hiddenFPS];
+//}
 
 @end
